@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,700&display=swap');
+body{
+    background: ffffff;
+    border-top: 28px solid #ffffff ;
+    margin: 0;
+    /* font-family: 'Open Sans', sans-serif;
+    font-size: 15px; */
+
+}
+.wraper{
+    width: 1440px;
+    margin: 0  auto;
+    overflow: hidden;
+
+}
+/* header */
+
+.header_section{
+    margin-top:0px;
+    padding-bottom:6px;
+    width: 1321px;
+    overflow: hidden;
+
+}
+ .header_logo{
+    width: 100px;
+    float: left;
+}
+
+.header_nav{
+    width: 550px;
+    float: left;
+    margin-top: 36px;
+    margin-bottom: 48px;
+    padding-left: 420px;
+
+
+}
+.header_nav ul{
+padding: 0;
+margin: 0;
+list-style:none;
+text-align: center;
+
+
+}
+
+.header_section .header_nav ul li{
+    color: #54524f;
+    font: bold 16.67px 'Open Sans';
+    text-transform: uppercase;
+    padding-left: 58px;
+    display: inline-block;
+
+
+}
+
+.header_section .header_nav ul li a{
+    color: #54524f;
+text-decoration: none ;
+
+}
+.header_section .header_nav ul li a:hover{
+    color: #deb37e;
+
+}
+.search_wrap{
+    width: 200px;
+    float:right;
+padding-top: 14px;
+
+}
+
+.search_wrap .search_box{
+	position: relative;
+	
+}
+.search_wrap .search_box .input{
+    position: absolute;
+
+	width: 182px;
+	height: 52px;
+    background-color: #c3bfbc;
+    border-radius: 50px;
+    border-color:#68635f;
+    outline: none;
+
+
+
+}
+
+
+.search_wrap .search_box .btn  .fas{
+	color: #68635f;
+    margin-left: 120px;
+    display: inline;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    position: absolute;
+
+    size: 32px;
+   
+
+}
