@@ -136,6 +136,8 @@ width: 100%;
 .banner_content{
     padding-top: 280px;
     margin-left: 93px;
+    margin-bottom: 252px;
+
 
 }
 
@@ -192,3 +194,119 @@ width: 100%;
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+/* card */
+html {
+    box-sizing: border-box;
+    font-size: 80%;
+  }
+  
+.middle_section{
+    background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 126px;
+
+}
+
+.text_area{
+    
+}
+
+.grid {
+    display: grid;
+    width: 1184px;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: start;
+  }
+  
+  .grid-item {
+    background-color: #7f7770;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-img {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-header {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    font-family: "open sans";
+    font-style: bold;
+
+    
+  }
+  
+  .card-text {
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #ffffff;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    font-family: "open sans";
+
+  }
+  
+  .card-btn {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+  }
+  
+  .card-btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+  }
+  
+  .card-btn:hover,
+  .card-btn:active {
+    background-color: #c2cffc;
+  }
+  
+  .card-btn:hover span,
+  .card-btn:active span {
+    margin-left: 1.5rem;
+  }
+  
+  @media only screen and (max-width: 60em) {
+    body {
+      padding: 3rem;
+    }
+  
+    .grid {
+      grid-gap: 3rem;
+    }
+  }
+  
