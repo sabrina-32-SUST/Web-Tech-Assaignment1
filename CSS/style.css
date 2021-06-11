@@ -3,8 +3,8 @@ body{
     background: ffffff;
     border-top: 28px solid #ffffff ;
     margin: 0;
-    /* font-family: 'Open Sans', sans-serif;
-    font-size: 15px; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; 
 
 }
 .wraper{
@@ -101,4 +101,94 @@ padding-top: 14px;
     size: 32px;
    
 
+}
+/* header end */
+
+.body_section{
+    margin-top:0px;
+
+}
+.banner{
+    height: 813px;
+    width: 100%;
+}
+.banner_left_side{
+    width: 554px;
+    height: 457px;
+}
+
+.banner_left_side h1{
+    color: #deb37e;
+    text-shadow: 0 7px #000000 ;
+    
+
+}
+
+/* body start */
+
+/* banner  */
+.banner{
+background: url('../image/img1.jpg');
+height: 815px;
+width: 100%;
+}
+
+.banner_content{
+    padding-top: 280px;
+    margin-left: 93px;
+
+}
+
+.banner_content h1{
+    color: #deb37e;
+    font-size: 92px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-shadow: 0 7 #000000 ;
+    margin-bottom: 0px;
+
+}
+
+.banner_content p{
+    padding-top: 0px;
+    color: #54524f;
+    font-size: 25px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.banner_content a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.banner_content .btn1{
+
+    padding: 10px 40px;
+    background-color: #fefefd ;
+    font-size:25px;
+    font-weight: 800;
+    font-style: italic;
+    color: #776c64;
+    border-radius: 30px;
+
+}
+
+.banner_content .btn1:hover{
+    background-color: #776c64 ;
+    color: #fefefd;
+    
+
+}
+
+.banner_content p{
+    padding-top: 0px;
+    color: #54524f;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
