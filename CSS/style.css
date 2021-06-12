@@ -619,3 +619,97 @@ text-align: center;      }
     font-weight: 800;
 
 }
+
+
+/* subscribe */
+
+.subscribe_body{
+   
+    margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #deb37e;
+        height: 750px;
+  
+}
+
+
+.subscribe_container {
+    align-items: center;
+    width: 900px;
+    padding: 60px;
+    margin: 20px;
+}
+
+.subscribe_container h2.title {
+    color: #FFF;
+    text-align: center;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: bold;
+    font-family: "open sans";
+}
+
+.subscribe_container p {
+    color: #FFF;
+    font-size: 29px;
+    text-align: center;
+    margin: 10px 0;
+    font-family: "open sans";
+
+}
+
+.subscribe_container form .inputBox {
+    width: 770px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 50px;
+    position: relative;
+    padding-right: 75px;
+    justify-content: center;
+}
+
+.subscribe_container form .inputBox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: calc(100% - 50px);
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0 20px;
+    font-size: 1rem;
+    color: #f1f1f1;
+}
+
+.subscribe_container form .inputBox input::placeholder {
+    color: #8b8a88;
+}
+
+.subscribe_container form .inputBox button.btn {
+    position: absolute;
+    right:0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 222px;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background: #54524f;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 25px;
+    font-style: bold;
+    font-family: "open sans";
+    
+
+
+}
+
+
