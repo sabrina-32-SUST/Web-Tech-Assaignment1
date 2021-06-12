@@ -715,8 +715,11 @@ text-align: center;      }
 footer{
     display: flex;
     flex-flow: row wrap;
-    padding: 50px;
+    padding-top: 280px;
     background-color: #7f7770;
+    height: 780px;
+    width: 100%;
+    padding-left: 100px;
 }
 
 
@@ -725,7 +728,6 @@ footer{
 
 .footer_left{
     margin-right: 90px;
-    margin-bottom: 240px;
 
 }
 .footer_left  h3{
@@ -733,6 +735,8 @@ footer{
     font-size: 32px;
     font-weight:400 ;
     color: #ffffff;
+    padding-bottom: 35px;
+
 
 }
 .footer_left .footer_left_p{
