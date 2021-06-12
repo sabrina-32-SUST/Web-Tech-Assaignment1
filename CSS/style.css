@@ -459,3 +459,78 @@ height: 1560px;
         color: #dbdbdb;
 
       }
+
+      /* explore  */
+
+      .text-on-image {
+        background-image: url("../image/img6.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+    
+        background-size: cover;
+        color: white;
+        width: 100%;
+        height: 826px;
+      }
+
+      .text-on-image a{
+    text-decoration: none ;
+    
+    }
+  
+      .text-on-image .explore_text {
+        padding-top: 307px;
+      }
+      .text-on-image .explore_text .explore {
+        font-family: "open sans", sans-serif;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 56px;
+        padding-left: 1000px;
+        color: #deb37e;
+        text-shadow: 0 1px #1f1e1e ;
+        letter-spacing: 3px;
+
+    }
+  
+      
+      .text-on-image .explore_text .the_world {
+        font-family: "open sans", sans-serif;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 70px;
+        padding-left: 860px;
+        color: #54524f;
+        letter-spacing: 3px;
+        text-shadow: 0 1px #000000 ;
+
+      }
+      
+      
+      /* @media (min-width: 768px) {
+        
+      .text-on-image .intro-text {
+          padding-top: 150px;
+          padding-bottom: 200px;
+          margin-left: 50%;
+      
+        }
+        
+      .text-on-image .intro-text .intro-lead-in {
+          font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-style: italic;
+          font-size: 40px;
+          line-height: 40px;
+          margin-bottom: 25px;
+        }
+        
+      .text-on-image .intro-text .intro-heading {
+          font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 75px;
+          line-height: 75px;
+          margin-bottom: 50px;
+        }
+      } */
