@@ -582,5 +582,40 @@ text-align: center;      }
         text-transform: uppercase;
       }
       
+      /* quote */
       
-      
+
+      .quote{
+        text-align: center;
+    }
+    blockquote{
+        font-size: 38px;
+        padding-top: 52px;
+        
+    }
+    blockquote::before{
+        content: "\201C";
+        font-size: 38px;
+        font-family: "open sans";
+        position: relative;
+        font-style: bold;
+        font-weight: 800;
+                color: #3f3f3f;
+    }
+
+    .quote_text_p{
+        font-size: 25px;
+        font-family: "open sans";
+        position: relative;
+
+    }
+
+.quote_text_author
+{
+    font-size: 20px;
+    font-family: "open sans";
+    position: relative;
+    font-style: bold;
+    font-weight: 800;
+
+}
