@@ -13,7 +13,9 @@ html {
 
 
   /* header and  banner section */
-
+a{
+  text-decoration: none;
+}
 
   .header_section {
     width: 100%;
@@ -44,6 +46,11 @@ html {
   .nav-items {
     margin-left: auto;
     justify-content: space-between;
+  }
+
+  .nav-items a:hover{
+    color: #deb37e;
+
   }
   .nav_menu {
     text-transform: uppercase;
@@ -110,6 +117,12 @@ html {
     color: #776c64;
     font-weight: bolder;
   }
+
+  .btn_read:hover{
+    color: #ffffff;
+    background: #776c64 0% 0% no-repeat padding-box;
+
+  }
  .header_section p {
     margin-top: 20px;
     margin-left: 85px;
@@ -121,6 +134,7 @@ html {
     font-style: italic;
     font-size: 1.313rem;
   }
+ 
   .shape_1{
     width: 100%;
     height: 191px;
@@ -248,6 +262,12 @@ html {
   font-weight: bolder;
 }
 
+.btn-show:hover{
+  color: #776c64;
+  background: #deb37e 0% 0% no-repeat padding-box;
+
+}
+
 /* split screen */
 
 .split_parent{
@@ -306,8 +326,8 @@ html {
   color: #ffffff;
   font-size: 1.823rem;
 }
-.split_screen1 button,
-.split_screen2 button {
+.split_screen1 .read_more_btn,
+.split_screen2 .read_more_btn {
   margin-top: 40px;
   width: 334px;
   height: 75px;
@@ -321,6 +341,12 @@ html {
   font-weight: bold;
 }
 
+.read_more_btn:hover{
+  background: #ffffff 0% 0% no-repeat padding-box;
+  color: #e2a355;
+
+
+}
 
 .hiking_section {
   width: 100%;
@@ -541,14 +567,14 @@ html {
     background: transparent;
     padding: 0 20px;
     font-size: 1rem;
-    color: #f1f1f1;
+    color: #000000;
 }
 
 .subscribe_container form .inputBox input::placeholder {
     color: #8b8a88;
 }
 
-.subscribe_container form .inputBox button.btn {
+.subscribe_container form .inputBox .subscribe_btn{
     position: absolute;
     right:0px;
     top: 50%;
@@ -564,10 +590,8 @@ html {
     font-size: 25px;
     font-style: bold;
     font-family: "open sans";
-
-
-
 }
+
 
 .subscribe_body_bottom{
   width: 100%;
@@ -626,6 +650,12 @@ footer{
     color: #7f7770;
     padding: 10px 12px;
     font-size: 20px;
+
+}
+.social_media a i:hover{
+  background: #7f7770;
+  color: #ffffff;
+
 
 }
 .footer  ul{
