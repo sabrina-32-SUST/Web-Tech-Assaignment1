@@ -1,35 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,700&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size-adjust: 0.58;
+}
 html {
     box-sizing: border-box;
     font-size: 80%;
   }
 body{
     background: ffffff;
-    border-top: 28px solid #ffffff ;
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px; 
-
+    background: url('../image/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 957px;
 }
-.wraper{
-    width: 1440px;
-    margin: 0  auto;
-    overflow: hidden;
 
-}
 /* header */
 
 .header_section{
-    margin-top:0px;
+  margin-top:0px;
+  margin-right: 0px;
     padding-bottom:6px;
-    width: 1321px;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: -4px;
+    width: 100%;
+    height: 196px;
+    background: transparent url("../image/Shape.png") 0% 0% no-repeat padding-box;
+    background-size: 100% auto;
+    box-shadow: 3px -4.29px 5px #e8e6e5bf;
+    
 
 }
+.nav {
+  display: flex;
+  width: 100%;
+}
  .header_logo{
-    width: 100px;
-    float: left;
+  margin-right: auto;
+  margin-left: 20px;
+  margin-top: -30px;
 }
 
 .header_nav{
@@ -116,7 +131,6 @@ padding-top: 14px;
 
 /* banner  */
 .banner{
-background: url('../image/img1.jpg');
 height: 815px;
 width: 100%;
 }
@@ -293,6 +307,8 @@ width: 100%;
     opacity: 1;
     font-weight: bolder;
     text-transform: uppercase;
+    margin-bottom: 180px;
+
 
 }
 
@@ -305,6 +321,7 @@ width: 100%;
 /* split screen */
 
 .split_parent{
+
 width: 100%;
 height: 1560px;
 }
