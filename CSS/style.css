@@ -252,100 +252,75 @@ html {
 
 .split_parent{
 
-width: 100%;
-height: 1560px;
+  width: 100%;
+  height: 1560px;
+  }
+.split_screen1,.split_screen2  {
+  width: 100%;
+  height: 780px;
+  background: #7f7770 0% 0% no-repeat padding-box;
 }
-.split_1, .split_2  {
-    display: flex;
-    height: 50%;
-
-  }
-  h2{
-
-    font-family: "open sans";
-    font-size: 58px;
-    font-weight: 800; 
-    font-style: bold;
-  }
-  p{
-    font-family: "open sans";
-    font-size: 29px;
-    font-weight: 400; 
-  }
-
-  
-  .image_split_1 {
-      padding: 64px;
-    width: 50%;
-    color: #ffffff;
-    background: #ffffff;
-    }
-  
-  .text_split_1 {
-    color: #ffffff;
-    background: #7f7770;
-    
-  }
- 
- 
-
-  .image_split_2 {
-    width: 50%;
-    padding: 100px;
-    color: #ffffff;
-    background: #deb37e;
-
+.split_screen2 {
+  background: #deb37e 0% 0% no-repeat padding-box;
 }
-  
-  .text_split_2 {
-    color: #ffffff;
-    background: #deb37e;
-  }
-
- 
-  a.readmore {
-    font-family: "open sans";
-    background: none;
-    background-color: #e2a355 ;
-    border-radius:30px;
-    width:333px;
-    height: 22px;
+.split_screen1_pic,
+.split_screen2_pic {
+  float: left;
+  width: 50%;
+  height: 780px;
+}
+.split_screen2_pic {
+  float: right;
+}
+.split_screen1_pic img,
+.split_screen2_pic img {
+  object-fit: cover;
+  width: 100%;
+  height: 780px;
+}
+.split_screen1_title,
+.split_screen2_title {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 50px;
+  width: 40%;
+  height: 780px;
+}
+.split_screen1 h4,
+.split_screen2 h4 {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 3.625rem;
+  font-weight: bold;
+  width: 550px;
+  height: 149px;
+}
+.split_screen1 p,
+.split_screen2 p {
+  margin-top: 30px;
+  width: 560px;
+  height: 192px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 1.823rem;
+}
+.split_screen1 button,
+.split_screen2 button {
+  margin-top: 40px;
+  width: 334px;
+  height: 75px;
+  background: #e2a355 0% 0% no-repeat padding-box;
+  border-radius: 38px;
+  border: none;
   text-align: center;
-  padding: 10px 40px;
-  margin-bottom: 22px;
+  letter-spacing: 5.79px;
+  color: #ffffff;
+  font-size: 1.81rem;
+  font-weight: bold;
+}
 
-   
-    font-size: 29px;
-    font-style: bold;
-    font-weight: 800;
-    text-decoration: none;
-    color: #ffffff;
-    display: inline-block;
-      cursor: pointer;
-  }
- a.readmore:hover {
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #e2a355;
-      cursor: pointer;
-  }
-  
-  /* @media screen and (max-width: 600px){
-    
-    .parent {
-      flex-direction: column-reverse;  
-    }
-    
-    .item {
-      width: auto;
-      min-height: 200px;
-    }
-    
-    .last {
-      background: #aa0000;
-    }
-    
-  } */
 
   .hiking_wraper{
       height: 640px;
