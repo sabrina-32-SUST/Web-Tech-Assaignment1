@@ -368,126 +368,43 @@ html {
 
       /* explore  */
 
-      .text-on-image {
-        background-image: url("../image/img6.jpg");
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-position: center center;
-    
-        background-size: cover;
-        color: white;
+      .explore_div {
         width: 100%;
-        height: 826px;
-      }
-
-      .text-on-image a{
-    text-decoration: none ;
-
-    
-    }
-
-    
-  
-      .text-on-image .explore_text {
-        padding-top: 307px;
-      }
-      .text-on-image .explore_text .explore {
-        font-family: "open sans", sans-serif;
-        font-style: italic;
-        font-weight: 800;
-        font-size: 56px;
-        padding-left: 1000px;
-        color: #deb37e;
-        text-shadow: 0 1px #1f1e1e ;
-        letter-spacing: 3px;
-
-    }
-  
-      
-      .text-on-image .explore_text .the_world {
-        font-family: "open sans", sans-serif;
-        font-style: italic;
-        font-weight: 800;
-        font-size: 70px;
-        padding-left: 860px;
-        color: #54524f;
-        letter-spacing: 3px;
-        text-shadow: 0 1px #000000 ;
-
-      }
-      
-      
-      /* @media (min-width: 768px) {
-        
-      .text-on-image .intro-text {
-          padding-top: 150px;
-          padding-bottom: 200px;
-          margin-left: 50%;
-      
-        }
-        
-      .text-on-image .intro-text .intro-lead-in {
-          font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-          font-style: italic;
-          font-size: 40px;
-          line-height: 40px;
-          margin-bottom: 25px;
-        }
-        
-      .text-on-image .intro-text .intro-heading {
-          font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-          text-transform: uppercase;
-          font-weight: 700;
-          font-size: 75px;
-          line-height: 75px;
-          margin-bottom: 50px;
-        }
-      } */
-
-
-      /* text div */
-   
-      
-      .text_div_wrapper{
-        margin-top: 175px;
-      }
-      .text_div{
-        display: flex;
-        justify-content: center;
-        width: auto;
-        text-align: center;
-        flex-wrap: wrap;
-      }
-      
-      .text_div .text_div_txt{
-        background: #fff;
-        margin: 5px;
-        margin-bottom: 50px;
-        width: 300px;
-        padding: 20px;
-        line-height: 20px;
-        color: #8e8b8b;  
+        height: 1114px;
+        background-image: url("../image/img6.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
         position: relative;
+        z-index: 1;
+        display: flex;
       }
-      
-      .text_div .text_div_txt h3{
-        color: #deb37e;
-        font-size: 33px;
-        font-family: "open sans";
-        font-weight: 800;
-        font-style: bold;
-        margin-top: 50px;
-text-align: center;      }
-      
-      .text_div .text_div_txt p{
-        color: #333d42;
-        margin: 12px 0;
-        font-size: 19px;
-        font-family: "open sans";
-        font-weight: 400;
-        text-transform: uppercase;
+      .explore_title {
+        position: absolute;
+        top: 470px;
+        /* left: 950px; */
+        width: 98%;
+        align-items: flex-end;
       }
-      
+      .explore_heading {
+        width: 100%;
+        height: 113px;
+        text-align: right;
+        letter-spacing: 0px;
+        color: #54524f;
+        font-size: 5.208rem;
+        font-weight: 650;
+        font-style: italic;
+        text-shadow: 3px -4.29px 5px #54524f38;
+      }
+      .explore_bottom{
+        width: 100%;
+        height: 191px;
+        position: absolute;
+        top: 1000px;
+        background: transparent url("../image/Shadow-1.png") 0% 0% no-repeat padding-box;
+        background-size: 100% auto;
+      }
       /* quote */
       
 
