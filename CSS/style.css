@@ -202,6 +202,10 @@ width: 100%;
 
 /* card */
 
+.middle_section{
+    height: 1080px;
+    width: 100%;
+}
 .middle_text{
     text-align: center;
     margin-top: 126px;
@@ -223,9 +227,13 @@ width: 100%;
     color: #b2ada9;
     
 }
+
   
 .slice{
+
+
     background-color: #ffffff;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,6 +244,8 @@ width: 100%;
 
 
 .grid {
+
+
     display: grid;
     width: 1184px;
     grid-gap: 6rem;
@@ -244,6 +254,7 @@ width: 100%;
   }
   
   .grid-item {
+
     background-color: #7f7770;
     overflow: hidden;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
