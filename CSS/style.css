@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  font-size-adjust: 0.58;
 
 }
 html {
@@ -135,41 +134,40 @@ html {
 
 /* card */
 
-.middle_section{
+.middle_section {
   width: 100%;
   height: 1074px;
- 
+  margin-top: 100px;
+  background-image: url("../image/Group-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   align-content: space-between;
   flex-direction: column;
-  background-image: url("../image/Group-1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.middle_text{
-    text-align: center;
-    margin-top: 126px;
 }
 
-.middle_text h1{
-
-    font-size: 63px;
-    font-family: "open sans";
-    font-weight: 800;
-    color: #e2a355;
+.middle_section h1 {
+  margin: 0px auto;
+  width: 293px;
+  height: 85px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #e2a355;
+  font-size: 3.938rem;
+  font-weight: bolder;
 }
-
-.middle_text p{
-
-    font-size: 27px;
-    font-family: "open sans";
-    font-weight: 400;
-    color: #b2ada9;
-    
+.middle_section p {
+  margin: 10px auto;
+  width: 774px;
+  height: 127px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #7f7770;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.75rem;
 }
-  
 .slice{
   display: flex;
   justify-content: center;
@@ -177,9 +175,6 @@ html {
   padding-top: 83px;
 
 }
-
-
-
 .grid {
     display: grid;
     width: 1184px;
@@ -209,11 +204,11 @@ html {
   display: inline-block;
   }
   
-  .card-content {
+  .card_content {
     padding: 20px;
   }
   
-  .card-header {
+  .card_content h1{
     margin-top: 30px;
     width: 307px;
     height: 86px;
@@ -226,39 +221,31 @@ html {
     
   }
   
-  .card-text {
+  .card_content p {
     margin-top: -30px;
     width: 307px;
     height: 86px;
     text-align: left;
     letter-spacing: 0px;
     color: #ffffff;
-    font-size: 1.43rem;
-    font-weight: lighter;
+    font-size: 22px;
+    font-weight: 400;
 
   }
 
-
-  .showbutton{
-    border: none;
-    margin-top: 80px;
-    width: 334px;
-    height: 75px;
-    background: #7f7770 0% 0% no-repeat padding-box;
-    opacity: 0.9;
-    border-radius: 45px;
-    font-size: 1.375rem;
-    text-align: center;
-    letter-spacing: 4.6px;
-    color: #ffffff;
-    font-weight: bolder;
-
-}
-
-.showbutton:hover{
-  background: #ffffff 0% 0% no-repeat padding-box;
-  color: #7f7770;
-
+.btn-show {
+  border: none;
+  margin-top: 80px;
+  width: 334px;
+  height: 75px;
+  background: #7f7770 0% 0% no-repeat padding-box;
+  opacity: 0.9;
+  border-radius: 45px;
+  font-size: 1.375rem;
+  text-align: center;
+  letter-spacing: 4.6px;
+  color: #ffffff;
+  font-weight: bolder;
 }
 
 /* split screen */
